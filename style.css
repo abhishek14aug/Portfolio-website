@@ -78,6 +78,8 @@ body {
     list-style: none;
     padding-left: 0px;
     margin: 0px;
+    /* margin-bottom: 3vh; */
+    
   }
   
   .horizontal-list li {
@@ -596,21 +598,9 @@ body {
   
   /*      Media querries  */
   
-  @media only screen and (max-width: 572px) {
-    .bars {
-      display: block;
-    }
   
-    .nav-menu {
-      display: none;
-    }
   
-    .horizontal-list li {
-      margin: 0px 4px 4px 0px;
-    }
-  }
-  
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 800px) {
     #timeline-divider {
       left: 5%;
     }
@@ -648,5 +638,64 @@ body {
     #my-details-container {
       width: 80%;
       margin: 10%;
+    }
+
+
+    #my-name {
+      font-size: 2rem;
+      letter-spacing: 0.1rem;
+      color: white;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+
+
+  }
+
+  @media only screen and (max-width: 572px) {
+    .bars {
+      display: block;
+    }
+  
+    .nav-menu {
+      display: none;
+    }
+  
+    .horizontal-list li {
+      margin: 0px 4px 4px 0px;
+    }
+
+    
+    #my-name {
+      font-size: 2rem;
+      letter-spacing: 0.1rem;
+      color: white;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+
+  @media only screen and (max-width: 460px) {
+    .bars {
+      display: block;
+    }
+  
+    .nav-menu {
+      display: none;
+    }
+  
+    .horizontal-list li {
+      margin: 0px 4px 4px 0px;
+    }
+
+    
+    #my-name {
+      font-size: 1.3rem;
+      letter-spacing: 0.1rem;
+      color: white;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
     }
   }
