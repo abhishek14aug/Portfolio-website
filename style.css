@@ -641,14 +641,6 @@ body {
     }
 
 
-    #my-name {
-      font-size: 2rem;
-      letter-spacing: 0.1rem;
-      color: white;
-      font-weight: 700;
-      margin-bottom: 0.5rem;
-    }
-
 
 
   }
@@ -667,13 +659,7 @@ body {
     }
 
     
-    #my-name {
-      font-size: 2rem;
-      letter-spacing: 0.1rem;
-      color: white;
-      font-weight: 700;
-      margin-bottom: 0.5rem;
-    }
+  
   }
 
 
@@ -691,11 +677,5 @@ body {
     }
 
     
-    #my-name {
-      font-size: 1.3rem;
-      letter-spacing: 0.1rem;
-      color: white;
-      font-weight: 700;
-      margin-bottom: 0.5rem;
-    }
+
   }
